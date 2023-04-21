@@ -31,6 +31,5 @@ def evalRPN(tokens):
         else:
             stack.append(int(token))
     return stack[0]
-
 tokens = ["4","13","5","/","+"]
 print(evalRPN(tokens))
