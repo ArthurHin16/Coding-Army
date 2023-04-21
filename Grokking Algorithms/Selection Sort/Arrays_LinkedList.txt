@@ -1,0 +1,29 @@
+Arrays and linked list
+
+Using an array means all your tasks are stores contiguously in memory.
+With linked list, your items can be anywhere in memory. Each item stores
+the address of the next item in the list. A bunch of random memory addresses
+are linked together.
+
+Terminology: The elemts in an array are numbered. This numebring starts from 0,
+not 1. The position of an element is called its index. 
+
+Here are the run times for common operations on arrays and lists.
+
+          | ARRAYS | LISTS
+---------------------------
+READING   |  O(1)  |  O(n)
+---------------------------
+INSERTION |  O(n)  |  O(1)
+---------------------------
+DELETEION |  O(n)  |  O(1)
+
+Lists are better if you want to insert elements into the middle.
+Lists are better at deletions, because you just need to change what the
+previous element points to.
+
+Arrays see a lot of use because they allow random access.
+Sequential access means reading elements one by one, starting at the first element.
+Linked list can only do sequential access. 
+
+
