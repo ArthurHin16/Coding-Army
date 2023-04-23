@@ -1,0 +1,12 @@
+What is Backtracking?
+
+Backtracking can be defined as a general algorithm technique that considers searching every possible combination in
+order to solve a computational problem.
+
+What is Backtracking algorithm?
+Is an algorithmic technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, 
+removing those solutions that fail to satisfy the constraints of the problem at any point of time.
+
+Recursion vs Backtracking
+Recursion involves a function calling itself until it reaches the base case.
+Backtracking uses recursion to discover all of the possibilities until we get the best end result for the problem. 
