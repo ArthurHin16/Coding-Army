@@ -15,7 +15,7 @@ fourth_node.next = fifth_node
 
 def reverseList(head): 
     prev = None
-    curr = head # None <- 1   2
+    curr = head 
     while curr:
         nxt = curr.next
         curr.next = prev
